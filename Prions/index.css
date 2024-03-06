@@ -1,0 +1,178 @@
+html {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    background: rgb(220, 220, 255); 
+    a:link {color:black; text-decoration: none};
+    a:visited {color:black; text-decoration: none};
+    a:hover {color: black; font-weight: bold; text-decoration: none};
+}
+
+h1 {
+    color: rgba(0, 33, 182, 0.767);
+    text-align: center;
+    font-size: 48pt;
+    background-image: url(./Images/Abseil-gear-iStockcomBW.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+   }
+
+#safety {
+    text-align: left;
+    color:rgb(0, 33, 182);
+    background: rgb(220, 220, 255);
+    margin: 100px;
+    border: 500px;
+}
+
+#buttons {
+    font-family: 'Lato', Courier, monospace;
+    font-size: 18pt;
+    margin: 10px;
+}
+
+table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+  }
+  
+  thead th {
+    background: rgb(0, 33, 182);
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+  }
+  
+  th, td {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    width: 33.3333%;
+  }
+
+  
+<!--For the dropdown menu
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .select-menu {
+    display: inline-block;
+    max-width: 200px;
+    margin: 5px auto;
+    margin-right: 5px;
+  }
+  .select-menu .select-btn {
+    display: flex;
+    height: 10px;
+    background: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .select-menu .options {
+    position: absolute;
+    width: 200px;
+    overflow-y: auto;
+    max-height: 295px;
+    padding: 0px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #ffffffa4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
+    animation-duration: 0.35s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.35s;
+    -webkit-animation-fill-mode: both;
+  }
+  .select-menu .options .option {
+    display: flex;
+    height: 40px;
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: 8px;
+    align-items: center;
+    background: #ffffffa4;
+  }
+  .select-menu .options .option:hover {
+    background: #ffffffa4;
+  }
+  .select-menu .options .option i {
+    font-size: 25px;
+    margin-right: 6px;
+  }
+  .select-menu .options .option .option-text {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .select-btn i {
+    font-size: 25px;
+    transition: 0.3s;
+  }
+  
+  .select-menu.active .select-btn i {
+    transform: rotate(-180deg);
+  }
+  .select-menu.active .options {
+    display: block;
+    opacity: 0;
+    z-index: 10;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 30px, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  @keyframes fadeInDown {
+    from {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+    to {
+      transform: translate3d(0, 20px, 0);
+      opacity: 0;
+    }
+  }
+  
+  
